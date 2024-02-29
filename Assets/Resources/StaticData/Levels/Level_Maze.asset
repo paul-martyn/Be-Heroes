@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e0ea3a695cb4a12b8262278dad96ffc, type: 3}
+  m_Name: Level_Maze
+  m_EditorClassIdentifier: 
+  LevelKey: Maze
+  EnemySpawners:
+  - Id: Main 1_a93ecb9c-c0ca-40ac-ad04-39495e6b957b
+    MonsterTypeId: 2
+    Position: {x: 14.38, y: 0, z: 11.19}
+  - Id: SpawnMarker_7d7955aa-f3ab-4bcb-8c29-64f63e1ca432
+    MonsterTypeId: 1
+    Position: {x: 12.5, y: 0, z: -7.5}
+  - Id: Main 1_6d3fc94c-8d4c-4cc7-8068-f462e123fb74
+    MonsterTypeId: 1
+    Position: {x: -15, y: 0, z: 2.5}
+  - Id: Main 1_2a8f917b-94b8-438b-a80a-28f107bc9306
+    MonsterTypeId: 2
+    Position: {x: 2.36, y: 0, z: 1.6399999}
+  - Id: Main 1_42696021-9cb9-40ac-b0b2-7f5352d3bce3
+    MonsterTypeId: 2
+    Position: {x: -14.98, y: 0, z: 13.03}
+  - Id: Main 1_41383798-54a4-4377-873c-2bbb1d371f3a
+    MonsterTypeId: 1
+    Position: {x: 20, y: 0, z: 0.25}
+  - Id: Main 1_2370792a-f361-4a94-9b5e-ee940aaa63c2
+    MonsterTypeId: 3
+    Position: {x: 26.33, y: 0, z: 11.05}
+  - Id: Main 1_df5d3609-fdb4-4fb0-a062-b263ecb86435
+    MonsterTypeId: 2
+    Position: {x: -15, y: 0, z: -17.5}
+  - Id: Main 1_f56f97ac-1e71-4d00-823a-09303859499b
+    MonsterTypeId: 2
+    Position: {x: -4.96, y: 0, z: 12.42}
+  - Id: Main 1_bd500273-2821-4577-9127-a93e0d47886b
+    MonsterTypeId: 1
+    Position: {x: 0, y: 0, z: -17.5}
+  - Id: Main 1_2864a833-01f9-4e2d-9380-fc77e4e7f7fd
+    MonsterTypeId: 1
+    Position: {x: 0, y: 0, z: -8.75}
+  InitialHeroPosition: {x: 12.5, y: 0, z: -18}
+  LevelTransfer:
+    TransferTo: Dangeon
+    Position: {x: 17, y: 0, z: -19}
